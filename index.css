@@ -63,6 +63,10 @@ p {
   font-weight: 600;
 }
 
+.card p {
+  text-align: left;
+}
+
 .card img {
   margin-top: 40px;
   margin-left: 225px;
