@@ -1,0 +1,135 @@
+html,
+body {
+  min-height: 100vh;
+  /* min-width: 80vh; */
+  font-size: 15px;
+  background-color: hsl(0, 0%, 98%);
+  font-family: poppins;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  /* gap: 10px; */
+  flex-flow: row;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 200;
+  margin-top: 50px;
+  margin-bottom: 2px;
+  color: hsl(229, 6%, 66%);
+}
+
+h1 span {
+  font-size: 32px;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+
+p {
+  text-align: center;
+  color: hsl(229, 6%, 66%);
+}
+
+/* p:nth-child(2) {
+  margin-top: 0px;
+} */
+
+.card {
+  background-color: #fff;
+
+  height: 100%;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.18);
+}
+
+.card span {
+  color: hsl(234, 12%, 34%);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card img {
+  margin-top: 40px;
+  margin-left: 225px;
+}
+
+.block1 {
+  width: 35%;
+
+  margin-left: 40px;
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.common {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.block2 {
+  width: 75%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.block3 {
+  width: 75%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.block4 {
+  width: 35%;
+  margin-right: 40px;
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .block1 {
+    margin: 40px 40px 10px 40px;
+    width: 70%;
+  }
+
+  .block2 {
+    width: 70%;
+  }
+
+  .block3 {
+    width: 70%;
+  }
+
+  .block4 {
+    margin: 10px 40px 20px 40px;
+    width: 70%;
+  }
+}
