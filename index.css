@@ -73,7 +73,7 @@ p {
 }
 
 .block1 {
-  width: 35%;
+  width: 32%;
 
   margin-left: 40px;
   border-top: 5px solid hsl(180, 62%, 55%);
@@ -102,7 +102,7 @@ p {
 }
 
 .block4 {
-  width: 35%;
+  width: 32%;
   margin-right: 40px;
   border-top: 5px solid hsl(212, 86%, 64%);
 }
